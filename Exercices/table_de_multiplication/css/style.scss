@@ -1,0 +1,119 @@
+@import "reset";
+
+@mixin display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    @include display;
+    background-color: rgb(151, 202, 250);
+    background-image: url(../img/cool3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2{
+        font-size: 4vw;
+        font-weight: normal;
+    }
+    header{
+        width: 100%;
+        height: 15%;
+        text-align: center;
+        @include display;
+        justify-content: center;
+        background-color: rgb(62, 48, 253);
+        background-image: url(../img/cool2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        h1{
+            text-transform: uppercase;
+            font-size: 6vw;
+            color: white;
+        }
+    }
+    form{
+        width: 80%;
+        height: auto;
+        @include display;
+        justify-content: space-around;
+        background-color: rgb(211, 211, 211);
+        background-image: url(../img/cool4.png);
+         background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 5px 5px 5px black;
+        border-radius: 15px;
+        position: relative;
+        top : 12%;
+        #first{
+            width: auto;
+            @include display;
+            margin: 2% 0;
+            option, select, #second{
+                font-size: 3.5vw; 
+            }
+            #table{
+                margin: 5% 0;
+                border-radius: 15px;
+                width: 100%;
+                text-align: center;
+                background-color: whitesmoke;
+            }
+            select{
+               outline-style: none;
+                }
+        }
+        #result{
+            margin: 1% 0;
+            width: 100%;
+            font-size: 3.5vw;
+            column-count: 2;
+        }
+    }
+}
+
+@media screen and (min-width: 960px){
+    body{
+        h2{
+            font-size: 2vw
+        }
+        header{
+            h1{
+                font-size: 4vw;
+            }
+        }
+        form{
+            top : 13%;
+            #first{
+                option, select, #second{
+                    font-size: 2.5vw; 
+                }
+            }
+            #result{
+                font-size: 2vw;
+                column-count: 3;
+            }
+            #table{
+                font-size: 2vw;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1400px){
+    body{
+        header{
+            h1{
+                font-size: 3vw;
+            }
+        }
+    }
+}
