@@ -14,7 +14,7 @@
 $header-bg: #0277BD
 $header-ht: 110px
 
-//   gestion des textes
+// gestion des textes
 
 h1
     font-size: 1.6em
@@ -51,9 +51,9 @@ p
     font-size: 1.2em
     margin: 0.3% 0
     @include media-min (960px)
-        font-size: 1.4em
+        font-size: 1.3em
     @include media-min (1200px)
-        font-size: 1.9em
+        font-size: 1.5em
 
 ul
     margin: 1rem 0
@@ -61,7 +61,10 @@ ul
 li
     font-size: 1.3em
     list-style-type: none
-  
+    @include media-min (960px)
+        font-size: 1.4em
+    @include media-min (1200px)
+        font-size: 1.5em
 
 a  
     text-decoration: none
@@ -172,11 +175,10 @@ body
             font-size: 1.8em
         &:hover
             background-color: lighten($header-bg, 40)
-            border-radius: 10px
     .menu-nav
-        margin: 0 5px
+        padding: 0 5px
         @include media-min (1200px)
-            margin: 0 15px
+            padding: 0 15px
 
 // gestion animation ouverture menu burger
 
@@ -223,7 +225,8 @@ main
                 margin: 10px
             #attestation
                 &:hover
-                    text-shadow: 0px 0px 20px white
+                    text-shadow: 0px 0px 30px white
+                    text-decoration: underline
                 &:visited
                     color: white
 
@@ -243,7 +246,7 @@ main
                 width: 100px
                 margin: 2%
                 @include media-min (960px)
-                    width: 180px
+                    width: 120px
                 img
                     width: 100%
     // gestin div experience
@@ -282,27 +285,37 @@ main
     display: flex
     flex-direction: column
     justify-content: space-between
-    @include media-min (960px)
-        width: 45%
-        height : 500px
+    @include media-min (768px)
+        width: 44%
     @include media-min (1200px)
         width: 29%
-        height : 500px
     img
         width: 100%
+        border-radius: 5px
         &:hover
-            box-shadow: 0 0 100px 2px white
-            border: 1px solid white
-            transition-duration: 0.2s    
-    .logoGithub
-        img
-            width: 15% !important
-            box-shadow: 5px 5px 5px black
-            border-radius: 50px
-            background-color: $header-bg
-            &:hover
-                border-radius: 10px
-                transition-duration: 0.2s
+            box-shadow: 0 0 30px 2px white
+            transition-duration: 0.6s    
+    .titre_text
+        height: 18%
+        display: flex
+        flex-direction: column
+        justify-content: center
+    .taille_img
+        display: flex
+        flex-direction: column
+        justify-content: center
+    .taille_logo
+        display: flex
+        flex-direction: column
+        justify-content: center
+        .logoGithub
+            img
+                width: 15% !important
+                border-radius: 50px
+                background-color: $header-bg
+                &:hover
+                    transition-duration: 0.5s
+                    background-color: lighten($header-bg, 20)
 
 .blocknohover
     width: 80%
@@ -311,23 +324,35 @@ main
     display: flex
     flex-direction: column
     justify-content: space-between
-    @include media-min (960px)
-        width: 45%
-        height : 500px
-    @include media-min (1200px)
+    @include media-min (768px)
+        width: 44%
+    @include media-min (1124px)
         width: 29%
-        height: 500px
     img
         width: 100%
-    .logoGithub
-        img
-            width: 15% !important
-            box-shadow: 5px 5px 5px black
-            border-radius: 50px
-            background-color: $header-bg
-            &:hover
-                border-radius: 10px
-                transition-duration: 0.2s 
+    .titre_text
+        height: 18%
+        display: flex
+        flex-direction: column
+        justify-content: center
+    .taille_img
+        display: flex
+        flex-direction: column
+        justify-content: center
+    .taille_logo
+        display: flex
+        flex-direction: column
+        justify-content: center
+        .logoGithub
+            img
+                width: 15% !important
+                border-radius: 50px
+                background-color: $header-bg
+                &:hover
+                    transition-duration: 0.5s 
+                    background-color: lighten($header-bg, 20)
+                    box-shadow: 0 0 30px 2px white
+                    transition-duration: 0.6s  
             
     // gestion div perso
 
@@ -377,14 +402,13 @@ footer
             background-color: $header-bg
             &:hover
                 border-radius: 10px
-                transition-duration: 0.2s
+                transition-duration: 0.3s
                 border: 1px solid white
         #link
             background-color: white
         .block-logo
             width: 40px
             margin-left: 10px
-
 
     #contact
         width: 30%
@@ -396,7 +420,7 @@ footer
             width: 10%        
         &:hover
             border-radius: 10px
-            transition-duration: 0.2s
+            transition-duration: 0.3s
             border: 1px solid white
         a
             font-size: 2vh
@@ -444,10 +468,10 @@ form
         color: black
         font-size: 3vh
         margin: auto
+
 #pagecontact
     width: 100%
     height: $header-ht
-    // padding: 1% 0
     background-color: $header-bg
     box-shadow: 5px 5px black
     border-radius: 5px

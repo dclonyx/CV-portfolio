@@ -32,7 +32,7 @@
             <main>
                 <div id="diplomestop" class="top"></div>
                 <div id="diplomes">
-                    <h2>Mes Diplômes</h2>
+                    <h2>Diplômes</h2>
                         <div id="cadreDiplome">
                             <div class="block-div1">
                                 <h3>Novembre 2018 :</h3>
@@ -63,7 +63,7 @@
                 <div id="experiencetop" class="top"></div>
 
                 <div id="experience">
-                    <h2>Mes Expériences Professionnelles</h2>
+                    <h2>Expériences Professionnelles</h2>
                         <div id="cadreExperience">
                             <div class="block-div">
                                 <h3>Depuis 2012: Mécanicien aéronautique DAHER BA702 Avord</h3>
@@ -91,7 +91,7 @@
                 <div id="competencetop" class="top"></div>
 
                 <div id="competence">
-                    <h2>Mes Compétences</h2>
+                    <h2>Compétences</h2>
                         <div id="icone"> 
                             <div class="cadre-icone">
                                 <h3>HTML</h3>
@@ -102,7 +102,7 @@
                                 <img src="./img/cssnotext.png" alt="css">
                             </div>
                             <div class="cadre-icone">
-                                <h3>Javascript</h3>
+                                <h3>JS</h3>
                                 <img src="./img/jsnotext.png" alt="js">
                             </div>
                             <div class="cadre-icone">
@@ -118,58 +118,113 @@
                 <div id="projetstop" class="top"></div>
 
                 <div id="projets">
-                    <h2>Mon Portfolio</h2>
+                    <h2>Portfolio</h2>
                         <div id="apercu">
                             <div class="blockhover">
-                                <h3>Reproduction d'une image en HTML et CSS</h3>
+                                <div class="titre_text">
+                                    <h3>Reproduction d'une image en HTML et CSS</h3>
+                                </div>
+                                <div class="taille_img">
                                     <a href="./Exercices/Reproduction-img" target="_blank"><img src="./img/reprod.png" alt="explorateur"></a>
+                                </div>
+                                <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclonyx/Reproduction-img" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
                             </div>
 
                             <div class="blockhover">
-                                <h3>Puissance 4</h3>
+                                <div class="titre_text">
+                                    <h3>Puissance 4</h3>
+                                </div>
+                                <div class="taille_img">
                                     <a href="./Exercices/Puissance-4" target="_blank"><img src="./img/puissance.png" alt="puissance4"></a>
+                                </div>
+                                <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclonyx/Puissance-4" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
                             </div>
 
                             <div class="blockhover">
-                                <h3>Shifumi</h3>
+                                <div class="titre_text">
+                                    <h3>Shifumi</h3>
+                                </div>
+                                <div class="taille_img">
                                     <a href="./Exercices/Shifumi" target="_blank"><img src="./img/shifumi.png" alt="shifumi"></a>
+                                </div>
+                                <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclonyx/Shifumi" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
                             </div>
 
                             <div class="blockhover">
-                                <h3>Table de Multiplication</h3>
+                                <div class="titre_text">
+                                    <h3>Table de Multiplication</h3>
+                                </div>
+                                <div class="taille_img">
                                     <a href="./Exercices/table_de_multiplication" target="_blank"><img src="./img/table.png" alt="tables"></a>
+                                </div>
+                                <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclonyx/table_de_multiplication" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
                             </div>
 
                             <div class="blockhover">
-                                <h3>Carte de voeux</h3>
+                                <div class="titre_text">
+                                    <h3>Essaie Blog</h3>
+                                </div>
+                                <div class="taille_img">
+                                    <a href="./Exercices/Test-blog" target="_blank"><img src="./img/blog.png" alt="Essai Blog"></a>
+                                </div>
+                                <div class="taille_logo">
+                                    <a class="logoGithub" href="https://github.com/dclonyx/test-blog" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div class="blockhover">
+                                <div class="titre_text">
+                                    <h3>Carte de voeux</h3>
+                                </div>
+                                <div class="taille_img">
                                     <a href="./Exercices/carte-de-voeux" target="_blank"><img src="./img/carte.png" alt="carte-voeux"></a>
+                                </div>
+                                <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclonyx/carte-voeux" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
                             </div>
 
-                            <div class="blocknohover">
-                                <h3>Monuments Historiques de France</h3>
-                                    <img src="./img/data.png" alt="data-project">
-                                    <a class="logoGithub" href="https://github.com/dclcoconuts/Data-Project" target="_blank"><img src="./img/github.svg.png" alt=""></a>
-                            </div>
                             <div class="blockhover">
-                                <h3>Award France Metal</h3>
+                                <div class="titre_text">
+                                    <h3>Photos des monuments historiques de France </h3>
+                                </div>
+                                <div class="taille_img">
+                                <a href="./Exercices/Data-project" target="_blank"><img src="./img/data.png" alt="data-project"></a>
+                                </div>
+                                <div class="taille_logo">
+                                    <a class="logoGithub" href="https://github.com/dclcoconuts/Data-Project" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div class="blockhover">
+                                <div class="titre_text">
+                                    <h3>Award France Metal</h3>
+                                </div>
+                                <div class="taille_img">
                                     <a href="https://awards.france-metal.fr" target="_blank"><img src="./img/award.png" alt="Award France Metal"></a>
+                                </div>
+                                <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclchrislfrakkass/france-metal-asso" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
                             </div>
                     </div>
                 </div>
 
                 <div id="perso">
-                    <h2>Mes Informations Personnelles</h2>
+                    <h2>Informations Personnelles</h2>
                         <div id="cadrePerso">
                             <div id="photo-perso"><img src="./img/perso.png" alt=""></div>
                             <p>OUVRARD Fabien</p>
                             <p>06-65-19-47-58</p>
-                            <p>fabou21@free.fr</p>
+                            <p>contact@fabien-ouvrard.fr</p>
                             <p>Bourges</p>
                             <p>Permis B</p>
                             <p>Véhicule Personnel</p>

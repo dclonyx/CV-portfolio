@@ -75,13 +75,13 @@ p {
 
 @media screen and (min-width: 960px) {
   p {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 }
 
 @media screen and (min-width: 1200px) {
   p {
-    font-size: 1.9em;
+    font-size: 1.5em;
   }
 }
 
@@ -92,6 +92,18 @@ ul {
 li {
   font-size: 1.3em;
   list-style-type: none;
+}
+
+@media screen and (min-width: 960px) {
+  li {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  li {
+    font-size: 1.5em;
+  }
 }
 
 a {
@@ -262,16 +274,15 @@ body {
 
 .menu a:hover {
   background-color: #8dd4fe;
-  border-radius: 10px;
 }
 
 .menu .menu-nav {
-  margin: 0 5px;
+  padding: 0 5px;
 }
 
 @media screen and (min-width: 1200px) {
   .menu .menu-nav {
-    margin: 0 15px;
+    padding: 0 15px;
   }
 }
 
@@ -355,7 +366,8 @@ main #diplomes #cadreDiplome h3 {
 }
 
 main #diplomes #cadreDiplome #attestation:hover {
-  text-shadow: 0px 0px 20px white;
+  text-shadow: 0px 0px 30px white;
+  text-decoration: underline;
 }
 
 main #diplomes #cadreDiplome #attestation:visited {
@@ -389,7 +401,7 @@ main #competence #icone .cadre-icone {
 
 @media screen and (min-width: 960px) {
   main #competence #icone .cadre-icone {
-    width: 180px;
+    width: 120px;
   }
 }
 
@@ -457,44 +469,80 @@ main #projets #apercu {
           justify-content: space-between;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .blockhover {
-    width: 45%;
-    height: 500px;
+    width: 44%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .blockhover {
     width: 29%;
-    height: 500px;
   }
 }
 
 .blockhover img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .blockhover img:hover {
-  -webkit-box-shadow: 0 0 100px 2px white;
-          box-shadow: 0 0 100px 2px white;
-  border: 1px solid white;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -webkit-box-shadow: 0 0 30px 2px white;
+          box-shadow: 0 0 30px 2px white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
 }
 
-.blockhover .logoGithub img {
+.blockhover .titre_text {
+  height: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blockhover .taille_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blockhover .taille_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blockhover .taille_logo .logoGithub img {
   width: 15% !important;
-  -webkit-box-shadow: 5px 5px 5px black;
-          box-shadow: 5px 5px 5px black;
   border-radius: 50px;
   background-color: #0277BD;
 }
 
-.blockhover .logoGithub img:hover {
-  border-radius: 10px;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+.blockhover .taille_logo .logoGithub img:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #28adfd;
 }
 
 .blocknohover {
@@ -513,17 +561,15 @@ main #projets #apercu {
           justify-content: space-between;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .blocknohover {
-    width: 45%;
-    height: 500px;
+    width: 44%;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1124px) {
   .blocknohover {
     width: 29%;
-    height: 500px;
   }
 }
 
@@ -531,18 +577,60 @@ main #projets #apercu {
   width: 100%;
 }
 
-.blocknohover .logoGithub img {
+.blocknohover .titre_text {
+  height: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blocknohover .taille_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blocknohover .taille_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blocknohover .taille_logo .logoGithub img {
   width: 15% !important;
-  -webkit-box-shadow: 5px 5px 5px black;
-          box-shadow: 5px 5px 5px black;
   border-radius: 50px;
   background-color: #0277BD;
 }
 
-.blocknohover .logoGithub img:hover {
-  border-radius: 10px;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+.blocknohover .taille_logo .logoGithub img:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #28adfd;
+  -webkit-box-shadow: 0 0 30px 2px white;
+          box-shadow: 0 0 30px 2px white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
 }
 
 #perso {
@@ -619,8 +707,8 @@ footer #logos img {
 
 footer #logos img:hover {
   border-radius: 10px;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   border: 1px solid white;
 }
 
@@ -650,8 +738,8 @@ footer #contact {
 
 footer #contact:hover {
   border-radius: 10px;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   border: 1px solid white;
 }
 
