@@ -16,7 +16,7 @@
         <header class="header">
                 <div class="header-titre">
                     <h1>OUVRARD Fabien</h1>
-                    <p>Développeur Web</p>
+                        <p>Développeur Web</p>
                 </div>
                 <a href="#" class="header__icon" id="header__icon"></a>
             <nav class="menu" id="menu">
@@ -66,16 +66,25 @@
                     <h2>Expériences Professionnelles</h2>
                         <div id="cadreExperience">
                             <div class="block-div">
+                                <h3>25 février 2019 - 12 avril 2019: Immersion en entreprise chez Qualnet</h3>
+                                    <p class="gras">Analyste développeur:</p>
+                                    <ul>
+                                        <li>Méthode Agile SCRUM</li>
+                                        <li>Développement ASP.NET</li>
+                                    </ul>
+                            </div>
+
+                            <div class="block-div">
                                 <h3>Depuis 2012: Mécanicien aéronautique DAHER BA702 Avord</h3>
-                                        <p class="gras">Mécanicien aéronautique sur EMB-121 (XINGU):</p>
-                                        <ul>
-                                            <li>Visites périodiques spécialité vecteur</li>
-                                            <li>Dépannages spécialité vecteur</li>
-                                        </ul>
+                                    <p class="gras">Mécanicien aéronautique sur EMB-121 (XINGU):</p>
+                                    <ul>
+                                        <li>Visites périodiques spécialité vecteur</li>
+                                        <li>Dépannages spécialité vecteur</li>
+                                    </ul>
                             </div>
                             <div class="block-div">
                                 <h3>De 2002 à 2012: Militaire (Armée de l'Air) BA702 Avord</h3>
-                                    <p class="gras">Mécanicien aéronautique sur sur E3-F (AWACS):</p>
+                                    <p class="gras">Mécanicien aéronautique sur E3-F (AWACS):</p>
                                     <ul>
                                         <li>Visites périodiques spécialité vecteur</li>
                                         <li>Dépannages spécialité vecteur</li>
@@ -92,26 +101,52 @@
 
                 <div id="competence">
                     <h2>Compétences</h2>
-                        <div id="icone"> 
+                        <h3 class="titre_competence">Langages utilisés :</h3>
+                        <div class="icone"> 
                             <div class="cadre-icone">
+                                <div class="image_logo">
+                                    <img src="./img/htmlnotext.png" alt="html">
+                                </div>
                                 <h3>HTML</h3>
-                                <img src="./img/htmlnotext.png" alt="html">
                             </div>
                             <div class="cadre-icone">
+                                <div class="image_logo">
+                                    <img src="./img/cssnotext.png" alt="css">
+                                </div>
                                 <h3>CSS</h3>
-                                <img src="./img/cssnotext.png" alt="css">
                             </div>
                             <div class="cadre-icone">
-                                <h3>JS</h3>
-                                <img src="./img/jsnotext.png" alt="js">
+                                <div class="image_logo">
+                                    <img src="./img/jsnotext.png" alt="js">
+                                </div>
+                                <h3>JavaScript</h3>
                             </div>
                             <div class="cadre-icone">
+                                <div class="image_logo">
+                                    <img src="./img/phpnotext.png" alt="php">
+                                </div>
                                 <h3>PHP</h3>
-                                <img src="./img/phpnotext.png" alt="php">
                             </div>
                             <div class="cadre-icone">
+                                <div class="image_logo">
+                                    <img src="./img/mysqlnotext.png" alt="mysql">
+                                </div>
                                 <h3>MYSQL</h3>
-                                <img src="./img/mysqlnotext.png" alt="mysql">
+                            </div>
+                        </div>
+                        <div class="icone">
+                            <h3 class="titre_competence">Technologie utilisées :</h3>
+                            <div class="cadre-icone">
+                                <div class="image_logo">
+                                    <img src="./img/sass.svg" alt="SASS">
+                                </div>
+                                <h3>SASS</h3>
+                            </div>
+                            <div class="cadre-icone">
+                                <div class="image_logo">
+                                    <img src="./img/github.svg" class="logoGithub2" alt="GIT">
+                                </div>
+                                <h3>GIT</h3>
                             </div>
                         </div>
                 </div>

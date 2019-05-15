@@ -26,12 +26,14 @@ if (!isset($_POST['validation'])) {
             
             <input type="text" name="nom" id="nom" placeholder="Nom" onkeypress="verifierCaracteres(event); return false;" required>
         
-            <input type="text"  name="prenom" id="prenom" placeholder="Prenom" onkeypress="verifierCaracteres2(event); return false;" required>
-        
             <input type="email" name="email" id="email" placeholder="Email" required>
         
             <textarea id="texte" name="message" id="message" placeholder="Message" required></textarea>
             
+            <div id="consentement">
+                <input type="checkbox" name="checkbox" id="checkbox" required> J'accepte d'envoyer mes informations personnelles remplies dans ce formulaire
+            </div>
+
             <div class="g-recaptcha" data-sitekey="<?php echo $clePublic ; ?>"></div>
 
             <input type="submit" id="envoyer" name="validation">
