@@ -46,7 +46,7 @@
                                     <p>Aformac</p>
                                     <p>Bourges</p>
                             </div>
-                           <div class="block-div1">
+                            <div class="block-div1">
                             <h3>2001 :</h3>
                                     <p>BAC Pro MSMA</p>
                                     <p>Saint Louis Technique</p>
@@ -66,11 +66,12 @@
                     <h2>Expériences Professionnelles</h2>
                         <div id="cadreExperience">
                             <div class="block-div">
-                                <h3>25 février 2019 - 12 avril 2019: Immersion en entreprise chez Qualnet</h3>
-                                    <p class="gras">Analyste développeur:</p>
+                                <h3>25 février 2019 - 12 avril 2019: Immersion dans l'entrprise Qualnet</h3>
+                                    <p class="gras">Développeur en méthode Agile SCRUM:</p>
                                     <ul>
-                                        <li>Méthode Agile SCRUM</li>
-                                        <li>Développement ASP.NET</li>
+                                        <li>Amélioration de l'ergonomie de l'application</li>
+                                        <li>Ajout de fonctionalités</li>
+                                        <li>Correction de l'application</li>
                                     </ul>
                             </div>
 
@@ -135,7 +136,7 @@
                             </div>
                         </div>
                         <div class="icone">
-                            <h3 class="titre_competence">Technologie utilisées :</h3>
+                            <h3 class="titre_competence">Technologies utilisées :</h3>
                             <div class="cadre-icone">
                                 <div class="image_logo">
                                     <img src="./img/sass.svg" alt="SASS">

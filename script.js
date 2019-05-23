@@ -1,7 +1,7 @@
 //  gestion des formulaires
 
 function verifierCaracteres(event) {
-	 		
+
 	var keyCode = event.which ? event.which : event.keyCode;
 	var touche = String.fromCharCode(keyCode);
 			
@@ -16,7 +16,7 @@ function verifierCaracteres(event) {
 }
 
 function verifierCaracteres2(event) {
-	 		
+
 	var keyCode = event.which ? event.which : event.keyCode;
 	var touche = String.fromCharCode(keyCode);
 			
