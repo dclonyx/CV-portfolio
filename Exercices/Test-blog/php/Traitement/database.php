@@ -2,10 +2,6 @@
 
 $file_json = file_get_contents("../../json/config.json");
 $decode = json_decode($file_json, true);
-// $host_name = $decode['host_name'];
-// $database = $decode['database'];
-// $user_name = $decode['user_name'];
-// $password = $decode['password'];
 $pdo = null;
 
 try {

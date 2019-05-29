@@ -11,7 +11,6 @@ if (!empty($mdp) and !empty($mail)){
     $mdpok = false;
     $emailok = false;
     $stmt = $pdo->query("SELECT * FROM utilisateur");
-       
     while ($row = $stmt->fetch()){
         if ($mail === $row['email_Utilisateur']){
             $emailok = true;
@@ -29,14 +28,13 @@ if (!empty($mdp) and !empty($mail)){
 
     if ($mdpok && $emailok){
         echo '<div class="text-center"><p class="text-primary">Vous êtes connecté en tant que '. $_SESSION['pseudo'].' !</p></div>';
-        
     } elseif(!$mdpok || !$emailok){
         echo '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span>E-mail ou Mot de passe invalide</div>';
     }
     $stmt->closeCursor();
-        } else {
-            echo '<div class="alert alert-danger" role="alert"> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span>Veuilez remplir tous les champs svp</div>';
-        }     
+} else {
+    echo '<div class="alert alert-danger" role="alert"> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span>Veuilez remplir tous les champs svp</div>';
+}     
 
 $content = ob_get_clean();
 require '../template/default.php';

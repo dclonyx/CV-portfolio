@@ -149,6 +149,12 @@
                                 </div>
                                 <h3>GIT</h3>
                             </div>
+                            <div class="cadre-icone">
+                                <div class="image_logo">
+                                    <img src="./img/bootstrap.jpg" class="bootstrap" alt="bootstrap">
+                                </div>
+                                <h3>Bootstrap</h3>
+                            </div>
                         </div>
                 </div>
                 <div id="projetstop" class="top"></div>
@@ -156,41 +162,6 @@
                 <div id="projets">
                     <h2>Portfolio</h2>
                         <div id="apercu">
-                            <div class="blockhover">
-                                <div class="titre_text">
-                                    <h3>Reproduction d'une image en HTML et CSS</h3>
-                                </div>
-                                <div class="taille_img">
-                                    <a href="./Exercices/Reproduction-img" target="_blank"><img src="./img/reprod.png" alt="explorateur"></a>
-                                </div>
-                                <div class="taille_logo">
-                                    <a class="logoGithub" href="https://github.com/dclonyx/Reproduction-img" target="_blank"><img src="./img/github.svg.png" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="blockhover">
-                                <div class="titre_text">
-                                    <h3>Puissance 4</h3>
-                                </div>
-                                <div class="taille_img">
-                                    <a href="./Exercices/Puissance-4" target="_blank"><img src="./img/puissance.png" alt="puissance4"></a>
-                                </div>
-                                <div class="taille_logo">
-                                    <a class="logoGithub" href="https://github.com/dclonyx/Puissance-4" target="_blank"><img src="./img/github.svg.png" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="blockhover">
-                                <div class="titre_text">
-                                    <h3>Shifumi</h3>
-                                </div>
-                                <div class="taille_img">
-                                    <a href="./Exercices/Shifumi" target="_blank"><img src="./img/shifumi.png" alt="shifumi"></a>
-                                </div>
-                                <div class="taille_logo">
-                                    <a class="logoGithub" href="https://github.com/dclonyx/Shifumi" target="_blank"><img src="./img/github.svg.png" alt=""></a>
-                                </div>
-                            </div>
 
                             <div class="blockhover">
                                 <div class="titre_text">
@@ -201,18 +172,6 @@
                                 </div>
                                 <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclonyx/table_de_multiplication" target="_blank"><img src="./img/github.svg.png" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="blockhover">
-                                <div class="titre_text">
-                                    <h3>Essaie Blog</h3>
-                                </div>
-                                <div class="taille_img">
-                                    <a href="./Exercices/Test-blog" target="_blank"><img src="./img/blog.png" alt="Essai Blog"></a>
-                                </div>
-                                <div class="taille_logo">
-                                    <a class="logoGithub" href="https://github.com/dclonyx/test-blog" target="_blank"><img src="./img/github.svg.png" alt=""></a>
                                 </div>
                             </div>
 
@@ -230,10 +189,46 @@
 
                             <div class="blockhover">
                                 <div class="titre_text">
+                                    <h3>Shifumi</h3>
+                                </div>
+                                <div class="taille_img">
+                                    <a href="./Exercices/Shifumi" target="_blank"><img src="./img/shifumi.png" alt="shifumi"></a>
+                                </div>
+                                <div class="taille_logo">
+                                    <a class="logoGithub" href="https://github.com/dclonyx/Shifumi" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div class="blockhover">
+                                <div class="titre_text">
+                                    <h3>Puissance 4</h3>
+                                </div>
+                                <div class="taille_img">
+                                    <a href="./Exercices/Puissance-4" target="_blank"><img src="./img/puissance.png" alt="puissance4"></a>
+                                </div>
+                                <div class="taille_logo">
+                                    <a class="logoGithub" href="https://github.com/dclonyx/Puissance-4" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div class="blockhover">
+                                <div class="titre_text">
+                                    <h3>Essaie Blog</h3>
+                                </div>
+                                <div class="taille_img">
+                                    <a href="./Exercices/Test-blog" target="_blank"><img src="./img/blog.png" alt="Essai Blog"></a>
+                                </div>
+                                <div class="taille_logo">
+                                    <a class="logoGithub" href="https://github.com/dclonyx/test-blog" target="_blank"><img src="./img/github.svg.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <div class="blockhover">
+                                <div class="titre_text">
                                     <h3>Photos des monuments historiques de France </h3>
                                 </div>
                                 <div class="taille_img">
-                                <a href="./Exercices/Data-project" target="_blank"><img src="./img/data.png" alt="data-project"></a>
+                                    <a href="./Exercices/Data-project" target="_blank"><img src="./img/data.png" alt="data-project"></a>
                                 </div>
                                 <div class="taille_logo">
                                     <a class="logoGithub" href="https://github.com/dclcoconuts/Data-Project" target="_blank"><img src="./img/github.svg.png" alt=""></a>

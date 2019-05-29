@@ -31,7 +31,7 @@ if (!isset($_POST['validation'])) {
             <textarea id="texte" name="message" id="message" placeholder="Message" required></textarea>
             
             <div id="consentement">
-                <input type="checkbox" name="checkbox" id="checkbox" required> J'accepte d'envoyer mes informations personnelles remplies dans ce formulaire
+                <input type="checkbox" name="checkbox" id="checkbox" required> J'accepte que mes informations soient utilisées pour être contacté
             </div>
 
             <div class="g-recaptcha" data-sitekey="<?php echo $clePublic ; ?>"></div>

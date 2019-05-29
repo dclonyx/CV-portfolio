@@ -39,9 +39,9 @@ if($passe == $passe2){
             $req->closeCursor();
             echo '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span> Votre inscription a bien ete prise en compte. Vous pouvez vous connecter.</div>';
             } elseif ($existe == 1){
-                echo '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span>Ce pseudo existe deja !</div>';
+                echo '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span>Ce pseudo existe déja !</div>';
                 } elseif ($existe == 2){
-                    echo '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span>Cet email est deja utilise !</div>';
+                    echo '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span>Cet email est déja utilisé !</div>';
                 }
     } else {
         echo '<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span class="sr-only">Error:</span> Veuillez remplir tous les champs svp</div>';
